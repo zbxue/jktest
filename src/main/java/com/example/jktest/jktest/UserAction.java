@@ -31,6 +31,7 @@ public class UserAction {
     @ResponseBody
     public String sayHello() {
         log.info("entry sayHello method....");
+        log.info("test gradle build.......");
         return "hello jk_user!";
     }
 }
